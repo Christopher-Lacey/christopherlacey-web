@@ -1,0 +1,39 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma";
+
+html, .navbar-menu, .navbar {
+  background-color: #fceed1;
+}
+#headshot-container {
+  img {
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 90%;
+  }
+}
+
+#info-container {
+  h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    @include mobile {
+      font-size: 60px;
+      line-height: 54px;
+    }
+    line-height: 76px;
+    margin-bottom: 40px;
+  }
+  p {
+    font-weight: 500;
+  }
+}
+
+.columns {
+  .column {
+    .card {
+      min-height: 280px;
+    }
+  }
+}
