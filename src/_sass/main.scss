@@ -1,8 +1,17 @@
 @charset "utf-8";
+
+@import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
+$navbar-item-hover-background-color: #ccc;
 @import "../../node_modules/bulma/bulma";
 
 html, .navbar-menu, .navbar {
-  background-color: #fceed1;
+  background-color: #ccc;
+}
+
+.navbar-item {
+  img {
+    max-height: 169px;
+  }
 }
 #headshot-container {
   img {
